@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231009235133">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<p>Soul</p>
+					<picture><source srcset="img/light/logo.webp" type="image/webp"><img src="img/light/logo.png" alt="логотип"></picture>
+					<p>Mates</p>
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="" class="menu__link">О нас</a></li>
+						<li class="menu__item"><a href="" class="menu__link">Установить</a></li>
+					</ul>
+				</nav>
+				<div class="header__action">
+					<div class="header__team switch">
+						<input id="team" checked type="checkbox">
+						<label class="switch-click" for="team"></label>
+					</div>
+					<button class="header__button button button_color">войти</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section data-fullscreen class="home">
+				<div class="home__container">
+					<div class="home__text">
+						<h1 class="home__title">знакомства в интернете</h1>
+						<p class="home__sub-title">уже давно норма</p>
+					</div>
+					<button class="home__button button button_shadow"><span>создать аккаунт</span></button>
+					<img srcset="img/main/arow-480.svg 480w, img/main/arow-640.svg 640w,  img/main/arow-960.svg 960w,
+                  img/main/arow-1200.svg 1200w,  img/main/arow.svg 1920w" src="img/main/arow.svg" alt="Стрелка" class="home__decor">
+				</div>
+				<img src="img/main/fon.png" srcset="img/main/fon-480.png 480w, 
+               img/main/fon-640.png 640w, img/main/fon-960.png 960w, img/main/fon-1200.png 1200w, img/main/fon.png 1920w" alt="Мазайка из фото профилей" class="home__fon">
+			</section>
+			<section class="rewiews">
+				<div class="rewiews__container">
+					<article class="rewiews__item rewiew">
+						<h2 class="rewiew__title">Иван и Мария</h2>
+						<p class="rewiew__text">
+							Наша история любви началась на этом замечательном сайте! Хоть раньше мы и не
+							верили в онлайн-знакомства, но этот сайт
+							доказал противоположное. Встреча с моим мужем стала самым важным событием в моей жизни, и я
+							благодарна этому сайту за
+							возможность встретить настоящую любовь!
+						</p>
+					</article>
+					<article class="rewiews__item rewiew">
+						<h2 class="rewiew__title">Дмитрий и София</h2>
+						<p class="rewiew__text">
+							Мы с моей девушкой уже более года вместе, и все началось именно здесь. Мы благодарим администрацию
+							сайта за то, что
+							создали такое удобное и привлекательное место для знакомств.
+						</p>
+					</article>
+					<article class="rewiews__item rewiew">
+						<h2 class="rewiew__title">Петр и Марина</h2>
+						<p class="rewiew__text">
+							Мы нашли друг друга здесь и с тех пор не представляем свою жизнь без друг друга. Сайт предоставил
+							нам уникальную
+							возможность встретиться, и мы неоценимо ценим это! В нашем случае, он сработал на 100%!
+						</p>
+					</article>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<h3 class="footer__title">Юридическая информация</h3>
+					<ul class="menu-footer">
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Конфиденциальность</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Условия</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Политика в отношении файлов Cookie</a>
+						</li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Интелектуальная собственность</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h3 class="footer__title">Карьера</h3>
+					<ul class="menu-footer">
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Карьера</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Технический блог</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h3 class="footer__title">Социальные сети</h3>
+					<ul class="menu-footer menu-footer_soc">
+						<li class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 42">
+									<path d="M35.875 20.6324C35.875 27.8949 32.0996 36.7499 20.7221 36.7499C12.1712 36.808 5.19079 29.7592 5.12498 20.9999C5.19079 12.2405 12.1712 5.19166 20.7221 5.24987C24.2595 5.26331 27.6895 6.49617 30.4596 8.74987C30.6509 8.91005 30.7686 9.14469 30.7842 9.39737C30.7852 9.65303 30.6868 9.89859 30.5108 10.0799C29.3987 11.1215 28.3382 12.2195 27.3333 13.3699C27.041 13.6994 26.5512 13.745 26.2058 13.4749C24.6275 12.2784 22.7017 11.6618 20.7392 11.7249C15.6915 11.7249 11.5996 15.9166 11.5996 21.0874C11.5996 26.2582 15.6915 30.4499 20.7392 30.4499C25.8642 30.4499 28.0337 28.2099 29.1612 24.2374H21.3542C20.8825 24.2374 20.5 23.8456 20.5 23.3624V18.7249C20.5 18.2416 20.8825 17.8499 21.3542 17.8499H35.0208C35.4141 17.8473 35.7458 18.1494 35.7896 18.5499C35.853 19.2421 35.8815 19.9372 35.875 20.6324Z" />
+								</svg>
+							</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 42">
+									<path d="M28.1875 10.5H23.0625C22.119 10.5 21.3542 11.2835 21.3542 12.25V17.5H28.1875C28.3817 17.4956 28.5661 17.5882 28.6816 17.7483C28.797 17.9085 28.8295 18.116 28.7683 18.305L27.5042 22.155C27.3877 22.5083 27.0653 22.7472 26.7013 22.75H21.3542V35.875C21.3542 36.3582 20.9717 36.75 20.5 36.75H16.2292C15.7574 36.75 15.375 36.3582 15.375 35.875V22.75H12.8125C12.3408 22.75 11.9583 22.3582 11.9583 21.875V18.375C11.9583 17.8918 12.3408 17.5 12.8125 17.5H15.375V12.25C15.375 8.384 18.4345 5.25 22.2083 5.25H28.1875C28.6592 5.25 29.0417 5.64175 29.0417 6.125V9.625C29.0417 10.1082 28.6592 10.5 28.1875 10.5Z" />
+								</svg>
+							</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 42">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M29.3334 5.625H14.6667C9.60409 5.625 5.50002 9.82234 5.50002 15V30C5.50002 35.1776 9.60409 39.375 14.6667 39.375H29.3334C34.3959 39.375 38.5 35.1776 38.5 30V15C38.5 9.82234 34.3959 5.625 29.3334 5.625ZM35.2917 30C35.2816 33.3611 32.6198 36.0834 29.3334 36.0938H14.6667C11.3802 36.0834 8.71842 33.3611 8.70836 30V15C8.71842 11.6388 11.3802 8.91654 14.6667 8.90625H29.3334C32.6198 8.91654 35.2816 11.6388 35.2917 15V30ZM30.7084 15.4688C31.7209 15.4688 32.5417 14.6293 32.5417 13.5938C32.5417 12.5582 31.7209 11.7188 30.7084 11.7188C29.6958 11.7188 28.875 12.5582 28.875 13.5938C28.875 14.6293 29.6958 15.4688 30.7084 15.4688ZM22 14.0625C17.4437 14.0625 13.75 17.8401 13.75 22.5C13.75 27.1599 17.4437 30.9375 22 30.9375C26.5564 30.9375 30.25 27.1599 30.25 22.5C30.255 20.2607 29.3873 18.1117 27.839 16.5283C26.2908 14.9449 24.1896 14.0575 22 14.0625ZM16.9584 22.5C16.9584 25.3477 19.2156 27.6562 22 27.6562C24.7845 27.6562 27.0417 25.3477 27.0417 22.5C27.0417 19.6523 24.7845 17.3438 22 17.3438C19.2156 17.3438 16.9584 19.6523 16.9584 22.5Z" />
+								</svg>
+							</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link menu-footer__link_icon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 42">
+									<path d="M35.8285 11.7555C35.0352 12.8396 34.0761 13.7853 32.9884 14.5561C32.9884 14.8393 32.9884 15.1225 32.9884 15.4214C32.9971 20.5644 30.9917 25.4959 27.4218 29.1104C23.8517 32.7248 19.0158 34.7198 13.9981 34.6481C11.0973 34.6581 8.23357 33.9796 5.63135 32.6657C5.49103 32.6028 5.40054 32.4608 5.40107 32.3038V32.1307C5.40107 31.9048 5.57978 31.7217 5.80022 31.7217C8.65169 31.6253 11.4014 30.6126 13.6604 28.8267C11.0794 28.7733 8.75721 27.2071 7.68849 24.7987C7.63453 24.6673 7.65132 24.5163 7.73286 24.4006C7.81438 24.2849 7.94884 24.2212 8.08765 24.2324C8.87206 24.3131 9.66432 24.2384 10.4211 24.0121C7.57197 23.4063 5.43112 20.9832 5.12473 18.0175C5.11385 17.8752 5.17608 17.7375 5.28897 17.6538C5.40184 17.5704 5.54904 17.553 5.67741 17.6085C6.44199 17.9541 7.26737 18.1361 8.103 18.1433C5.60644 16.4648 4.52809 13.2721 5.47782 10.3709C5.57587 10.089 5.81139 9.88071 6.09786 9.82265C6.38432 9.76457 6.67948 9.86524 6.87485 10.0877C10.2438 13.7607 14.8728 15.9494 19.7857 16.1924C19.66 15.678 19.5981 15.1493 19.6016 14.619C19.6475 11.8383 21.3271 9.36112 23.8541 8.34728C26.3809 7.33345 29.255 7.98356 31.1309 9.99327C32.4094 9.74374 33.6456 9.30379 34.7999 8.68737C34.8845 8.6333 34.9918 8.6333 35.0763 8.68737C35.1291 8.77403 35.1291 8.88391 35.0763 8.97057C34.5172 10.2822 33.5726 11.3822 32.3744 12.1173C33.4237 11.9927 34.4545 11.7391 35.4448 11.3621C35.5282 11.304 35.6377 11.304 35.721 11.3621C35.7909 11.3948 35.8432 11.4574 35.8639 11.5332C35.8845 11.609 35.8715 11.6903 35.8285 11.7555Z" />
+								</svg>
+							</a></li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<ul class="menu-footer">
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Частые вопросы</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Страны</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Пресса</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Контакты</a></li>
+						<li class="menu-footer__item"><a href="" class="menu-footer__link">Промокод</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20231009235133"></script>
+</body>
+
+</html>
