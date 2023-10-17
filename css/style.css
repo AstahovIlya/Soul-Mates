@@ -185,7 +185,7 @@ body {
 }
 
 [data-fullscreen] {
-  height: 100vh;
+  min-height: 100dvh;
 }
 
 [class*=-ibg] {
@@ -1464,7 +1464,7 @@ body {
   }
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media (hover: none) and (pointer: coarse) and (min-height: 600px) {
   [data-fullscreen] {
     height: 85vh;
   }
